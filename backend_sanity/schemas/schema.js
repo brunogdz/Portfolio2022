@@ -10,6 +10,7 @@ import skills from './skills'
 import workExperience from './workExperience'
 import contact from './contact'
 import experiences from './experiences'
+import abouts from './abouts'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,7 +22,7 @@ export default createSchema({
     testimonials,
     works,
     brands,
-    about,
+    abouts,
     skills,
     workExperience,
     contact,
